@@ -1,0 +1,90 @@
+.navbar-text{
+    font-size: 2rem;
+    position: relative;
+    top: 10px;
+}
+
+.logo-margin{
+    margin-left: 30px;
+}
+
+.score{
+    background-color: white;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+.score-text{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.score-val{
+    font-size: 20px;
+}
+
+.p1, .p2{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin: 8px 0px 8px 0px;
+}
+
+.no-gutters{
+    padding: 0px;
+    margin: 0px;
+}
+
+.pl-title{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.hand-val{
+    color: white;
+    font-size: 15vw;
+    text-align: center;
+}
+
+
+.play-area{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+hr{
+    border-color: white;
+    margin-top: 0px;
+}
+
+.cric-img{
+    max-width: 20vh;
+}
+
+.buttons{
+    margin-top: 3vh;
+}
+.button-gap{
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+.btn{
+    font-size: 3vh;
+}
+
+.reload{
+    max-width: 3vh;
+    margin-left: 20px;
+}
+
+.reload-text{
+    color: white;
+    margin-top: 5px;
+}
+
+.rl-div{
+    cursor: pointer;
+    width: 110px;
+}
