@@ -1,90 +1,109 @@
-.navbar-text{
-    font-size: 2rem;
-    position: relative;
-    top: 10px;
+:root {
+  --primary: #00adb5;
+  --background: #222831;
+  --secondary: #393e46;
+  --text: #eeeeee;
 }
 
-.logo-margin{
-    margin-left: 30px;
+#root {
+  background-color: var(--background);
+}
+.navbar-text {
+  font-size: 2rem;
+  position: relative;
+  top: 10px;
 }
 
-.score{
-    background-color: white;
-    font-size: 20px;
-    color: black;
-    text-align: center;
+.logo-margin {
+  margin-left: 30px;
 }
 
-.score-text{
-    font-size: 25px;
-    font-weight: 500;
+.score {
+  background-color: var(--secondary);
+  font-size: 20px;
+  color: var(--text);
+  text-align: center;
+  border-radius: 7px;
+  margin: 10%;
 }
 
-.score-val{
-    font-size: 20px;
+.score-text {
+  font-size: 25px;
+  font-weight: 500;
 }
 
-.p1, .p2{
-    font-size: 22px;
-    color: white;
-    text-align: center;
-    margin: 8px 0px 8px 0px;
+.score-val {
+  font-size: 20px;
 }
 
-.no-gutters{
-    padding: 0px;
-    margin: 0px;
+.p1,
+.p2 {
+  font-size: 22px;
+  color: var(--text);
+  text-align: center;
+  margin: 8px 0px 8px 0px;
 }
 
-.pl-title{
-    text-align: center;
-    color: white;
-    margin-top: 10px;
+.no-gutters {
+  padding: 0px;
+  margin: 0px;
 }
 
-.hand-val{
-    color: white;
-    font-size: 15vw;
-    text-align: center;
+.pl-title {
+  text-align: center;
+  color: var(--text);
+  margin-top: 10px;
+  width: max-content;
 }
 
-
-.play-area{
-    margin-bottom: 10px;
-    margin-top: 10px;
+.hand-val {
+  color: var(--text);
+  font-size: 15vw;
+  text-align: center;
 }
 
-hr{
-    border-color: white;
-    margin-top: 0px;
+.play-area {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-.cric-img{
-    max-width: 20vh;
+hr {
+  border-color: var(--primary);
+  margin-top: 0px;
 }
 
-.buttons{
-    margin-top: 3vh;
-}
-.button-gap{
-    margin-top: 3vh;
-    margin-bottom: 5vh;
-}
-.btn{
-    font-size: 3vh;
+.cric-img {
+  max-width: 20vh;
 }
 
-.reload{
-    max-width: 3vh;
-    margin-left: 20px;
+.bat,
+.ball {
+  max-width: 4rem;
 }
 
-.reload-text{
-    color: white;
-    margin-top: 5px;
+.buttons {
+  margin-top: 3vh;
+}
+.button-gap {
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+}
+.btn {
+  font-size: 3vh;
+  background-color: var(--primary);
 }
 
-.rl-div{
-    cursor: pointer;
-    width: 110px;
+.reload {
+  max-width: 3vh;
+  margin-left: 20px;
+}
+
+.reload-text {
+  color: var(--text);
+  margin-top: 5px;
+}
+
+.rl-div {
+  cursor: pointer;
+  width: 110px;
 }
